@@ -24,7 +24,7 @@ let package = Package(
     targets: [
         .target(
             name: "Litext",
-            resources: [.process("Resources")],
+            resources: [.process("Resources"), .process("PrivacyInfo.xcprivacy")],
             swiftSettings: [
                 .swiftLanguageMode(.v6),
             ],
